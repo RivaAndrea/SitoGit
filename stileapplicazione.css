@@ -1,0 +1,27 @@
+img{
+  width: 250px;
+  /* display: inline-block; */
+}
+h5{
+  float: left;
+}
+h6
+{
+  float: left;
+}
+.logo{
+  object-position: center;
+}
+.right
+{
+  float: left;
+}
+.carrello
+{
+  background-color:#212529 ;
+  border: #212529;
+}
+.coloreh
+{
+  color: white;
+}
