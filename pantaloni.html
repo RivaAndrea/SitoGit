@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pantaloni</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="stileapplicazione.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a style="font-family: Brush Script MT; " class="navbar-brand" href="#">You choose how to be</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Categorie</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="felpe.html">Felpe</a></li>
+                      <li><a class="dropdown-item" href="maglie.html">Maglie</a></li>
+                </ul>
+              </li>                
+            </ul>
+
+
+            <!-- logo -->
+            <a style="align-items:center ;" class="py-2" href="APPLICAZIONE.html" aria-label="Product">
+           
+              <svg  xmlns="http://www.w3.org/2000/svg" width="1000" height="40" fill="white" class="bi bi-activity" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/></svg></div></a><p>                   </p>
+          <a id="nascondi" onclick="colorw()"> Nascondi il carrello</a>
+                   
+            
+<!-- inizio carrello -->
+<div class="col-1 col-md">
+  <a class="carrello" href="carrello.html" id="cambiocolore" aria-label="Product">
+ 
+   <svg  xmlns="http://www.w3.org/2000/svg" width="26" height="30" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"class="d-block mx-auto" viewBox="0 0 24 16">
+     <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/></svg>
+   </a>
+ </div>
+
+
+         
+        
+         </div>
+         
+          </div>
+          
+        </div>
+        
+      </nav>
+      <div class="right" >
+        <div  class="coloreh" id="change">
+         <h5 >IL Prezzo totale è di: </h5>
+         <h5 id="prezzototale">0.00</h5> <h5 >€</h5>
+         <p></p>
+          
+        <br>
+        <br>
+        <br>
+        </div>
+       </div>
+        
+    <!-- fine navbar -->
+    <div class="container marketing">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+    
+              <div class="card" style="width: 16rem;">
+                <img class="bd-placeholder-img card-img-top" src="immagini/pantaloni1.png" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                 preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%"
+                  fill="#dee2e6" dy=".3em">pantaloni neri uomo</text></img>
+                <div class="card-body">
+                  </button>
+                  <button onclick="modifica(pantaloni1)" href="#" class="btn btn-dark">acquista <br> 30,00
+    
+                    </button>
+                </div>
+              </div>
+    
+            </div>  
+          
+            <div class="col">
+              <div class="card" style="width: 16rem;">
+                <img src="immagini/pantaloni2.png" class="bd-placeholder-img card-img-top" width="100%"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                 preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" 
+                 fill="#dee2e6" dy=".3em">pantaloni beige uomo </text></img>
+                <div class="card-body">
+                  
+                  <button onclick="modifica(pantaloni2)" href="#" class="btn btn-dark">acquista <br> 30,00
+                    
+                  </button>
+                </div>
+              </div>
+    
+            </div>     
+            
+            <div class="col">
+              <div class="card" style="width: 16rem;">
+                <img src="immagini/pantaloni3.png" class="bd-placeholder-img card-img-top" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                 preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" 
+                 fill="#dee2e6" dy=".3em">pantaloni neri uomo </text></img>
+                <div class="card-body">
+                  
+                  <button onclick="modifica(pantaloni3)" href="#" class="btn btn-dark">acquista
+                    <br> 33,50
+                  </button>
+                    </div>
+                  </div>
+                </div>      
+                 </div>
+        </div>   
+    </div>
+    <br>
+  </div><br><br> <br><br><br><br><br><br>
+
+  <!-- credits -->
+  <footer style="background-color:#212529 ;"  class="container py-4">
+    <div style="color:white ;">
+    <p  class="float-end"><a style="color:white ;" href="#">Back to top</a></p>
+    <p>&copy; 2022–2023 Company, mulas Inc. &middot; <a style="color:white ;" href="https://www.istitutogreppi.edu.it/">i nostri sponsor</a> &middot; <a style="color:white ;" href="https://www.instagram.com/">i nostri social</a>
+      <a  style="color:white ;" href="curriculum.html">Curriculum</a></p>
+    <p>La nostra azienda è regina della produzione dei tessuti della massima qualità sin dal 200 avanti cristo, le cuciture sono fatte di acqua santa congelata, il nostro obbiettio è soddisfare in ogni modo possibile il cliente</p>
+  </div>
+  </footer>
+
+    <script src="funzione.js"></script>
+  </body>
+</html>
